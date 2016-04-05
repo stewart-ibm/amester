@@ -1,0 +1,9 @@
+language: c
+
+addons:
+  apt:
+    packages:
+    - cvs
+
+before_script:
+        ./autogen.sh
